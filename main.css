@@ -21,7 +21,7 @@
   padding-left: 0;
   background-color: #dde1e7;
   height: 12em;
-  transition: height 1s;
+  transition: height .5s, opacity 1.3s;
 }
 
 .sub-menu-collapse {
