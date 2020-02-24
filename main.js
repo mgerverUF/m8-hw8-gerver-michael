@@ -4,8 +4,7 @@ var menuLabels = document.getElementsByClassName('nav-links');
 
 
 function showSubMenu() {
-    this.children[1].classList.toggle('sub-menu');
-   // document.getElementsByClassName('sub-menu').setAttribute('id','');
+    this.children[1].classList.toggle('sub-menu-collapse');
  }
 
 for (i = 0; i < menuLabels.length; i++) {
